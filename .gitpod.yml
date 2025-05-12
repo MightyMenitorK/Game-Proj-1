@@ -1,0 +1,10 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: sudo apt update && sudo apt install -y cmake g++ make
+    command: clear
+
+vscode:
+  extensions:
+    - ms-vscode.cpptools
